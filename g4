@@ -18,7 +18,7 @@ namespace ConsoleApp4
             Console.WriteLine("введите значение переменной t");
             t=Convert.ToDouble(Console.ReadLine());
 
-            D=9.8*Math.Pow(a,2)+5.52*Math.Cos(t,5);
+            D=9.8*Math.Pow(a,2)+5.52*Math.Cos(Math.Pow(t,5));
 
             Console.WriteLine($"значение переменной D={D}");
             Console.ReadKey();
